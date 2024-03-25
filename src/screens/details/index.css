@@ -1,0 +1,153 @@
+.parent-background {
+  background-color: white;
+  text-align: center;
+  height: 100vh;
+  width: 100%;
+}
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+.container {
+  display: flex;
+
+  flex-direction: row;
+  justify-content: center;
+  width: auto;
+  height: inherit;
+}
+.left {
+  width: 30%;
+  height: 1000px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: flex-start;
+}
+.right {
+  width: 70%;
+  padding: 20px;
+}
+.left img {
+  max-width: 100%;
+  height: auto;
+  z-index: 1;
+  border-radius: 1000px;
+}
+.left h1 {
+  font-size: 2rem;
+  margin-top: 20px;
+  display: inline-block;
+  align-self: flex-start;
+}
+.login {
+  font-size: 1.2rem;
+  margin-top: 10px;
+  display: inline-block;
+  align-self: flex-start;
+}
+.followers {
+  margin-top: 10px;
+
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.followers p {
+  font-size: 14px;
+  display: inline;
+  align-self: flex-start;
+  margin-left: 10px;
+  text-overflow: ellipsis;
+}
+
+.left .info {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.info p {
+  font-size: 16px;
+  display: inline-block;
+  align-self: flex-start;
+}
+
+.tabbar {
+  display: flex;
+  flex-direction: row;
+
+  border-bottom: 1px solid #cccccc;
+}
+
+.tab {
+  margin-right: 12px;
+  padding: 10px;
+}
+.tab:hover {
+  cursor: pointer;
+  background-color: #dfdbec;
+}
+.selectedtab {
+  border-bottom: 2px solid red;
+  margin-right: 12px;
+  padding: 10px;
+  background-color: #dfdbec;
+  font-weight: 600;
+}
+.repo-item {
+  border-bottom: 0.2px solid #cccccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  line-height: 30px;
+}
+.user-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+}
+.repo-item h4 {
+  font-size: 18px;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+
+.repo-item div {
+  margin-left: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.repo-item-colomn {
+  border: 0.2px solid #cccccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  line-height: 30px;
+}
+.repo-info {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.repo-info p {
+  margin-right: 50px;
+}
+.dot {
+  height: 18px;
+  width: 18px;
+  background-color: green;
+  border-radius: 50%;
+  display: inline-block;
+  align-self: center;
+  margin-right: 10px;
+}
